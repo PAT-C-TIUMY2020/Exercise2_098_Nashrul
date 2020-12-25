@@ -89,6 +89,11 @@ namespace Exercise2_098_Nashrul
 
         private void buttonSearch_Click(object sender, EventArgs e)
         {
+            SearchData();
+        }
+
+        public void SearchData()
+        {
             var json = new WebClient().DownloadString("http://localhost:1907/Mahasiswa");
             var data = JsonConvert.DeserializeObject<List<Mahasiswa>>(json);
             string nim = textBoxSearch.Text;
