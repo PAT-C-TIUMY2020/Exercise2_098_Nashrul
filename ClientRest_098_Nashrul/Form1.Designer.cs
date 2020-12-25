@@ -29,131 +29,162 @@ namespace ClientRest_098_Nashrul
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.labelNIM = new System.Windows.Forms.Label();
+            this.labelNama = new System.Windows.Forms.Label();
+            this.labelProdi = new System.Windows.Forms.Label();
+            this.labelAngkatan = new System.Windows.Forms.Label();
+            this.textBoxNIM = new System.Windows.Forms.TextBox();
+            this.textBoxNama = new System.Windows.Forms.TextBox();
+            this.textBoxProdi = new System.Windows.Forms.TextBox();
+            this.textBoxAngkatan = new System.Windows.Forms.TextBox();
+            this.buttonUpdate = new System.Windows.Forms.Button();
+            this.buttonDelete = new System.Windows.Forms.Button();
+            this.textBoxDelete = new System.Windows.Forms.TextBox();
+            this.buttonJumlah = new System.Windows.Forms.Button();
+            this.labelJumlah = new System.Windows.Forms.Label();
+            this.labelKeterangan = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // labelNIM
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "NIM";
+            this.labelNIM.AutoSize = true;
+            this.labelNIM.Location = new System.Drawing.Point(51, 48);
+            this.labelNIM.Name = "labelNIM";
+            this.labelNIM.Size = new System.Drawing.Size(32, 17);
+            this.labelNIM.TabIndex = 0;
+            this.labelNIM.Text = "NIM";
             // 
-            // label2
+            // labelNama
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 99);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nama";
+            this.labelNama.AutoSize = true;
+            this.labelNama.Location = new System.Drawing.Point(51, 99);
+            this.labelNama.Name = "labelNama";
+            this.labelNama.Size = new System.Drawing.Size(45, 17);
+            this.labelNama.TabIndex = 1;
+            this.labelNama.Text = "Nama";
             // 
-            // label3
+            // labelProdi
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(51, 150);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Prodi";
+            this.labelProdi.AutoSize = true;
+            this.labelProdi.Location = new System.Drawing.Point(51, 150);
+            this.labelProdi.Name = "labelProdi";
+            this.labelProdi.Size = new System.Drawing.Size(41, 17);
+            this.labelProdi.TabIndex = 2;
+            this.labelProdi.Text = "Prodi";
             // 
-            // label4
+            // labelAngkatan
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(51, 205);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 17);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Angkatan";
+            this.labelAngkatan.AutoSize = true;
+            this.labelAngkatan.Location = new System.Drawing.Point(51, 205);
+            this.labelAngkatan.Name = "labelAngkatan";
+            this.labelAngkatan.Size = new System.Drawing.Size(68, 17);
+            this.labelAngkatan.TabIndex = 3;
+            this.labelAngkatan.Text = "Angkatan";
             // 
-            // dataGridView1
+            // textBoxNIM
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(54, 274);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(486, 150);
-            this.dataGridView1.TabIndex = 4;
+            this.textBoxNIM.Location = new System.Drawing.Point(235, 48);
+            this.textBoxNIM.Name = "textBoxNIM";
+            this.textBoxNIM.Size = new System.Drawing.Size(224, 22);
+            this.textBoxNIM.TabIndex = 5;
             // 
-            // textBox1
+            // textBoxNama
             // 
-            this.textBox1.Location = new System.Drawing.Point(235, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(224, 22);
-            this.textBox1.TabIndex = 5;
+            this.textBoxNama.Location = new System.Drawing.Point(235, 99);
+            this.textBoxNama.Name = "textBoxNama";
+            this.textBoxNama.Size = new System.Drawing.Size(224, 22);
+            this.textBoxNama.TabIndex = 6;
             // 
-            // textBox2
+            // textBoxProdi
             // 
-            this.textBox2.Location = new System.Drawing.Point(235, 99);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(224, 22);
-            this.textBox2.TabIndex = 6;
+            this.textBoxProdi.Location = new System.Drawing.Point(235, 150);
+            this.textBoxProdi.Name = "textBoxProdi";
+            this.textBoxProdi.Size = new System.Drawing.Size(224, 22);
+            this.textBoxProdi.TabIndex = 7;
             // 
-            // textBox3
+            // textBoxAngkatan
             // 
-            this.textBox3.Location = new System.Drawing.Point(235, 150);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(224, 22);
-            this.textBox3.TabIndex = 7;
+            this.textBoxAngkatan.Location = new System.Drawing.Point(235, 205);
+            this.textBoxAngkatan.Name = "textBoxAngkatan";
+            this.textBoxAngkatan.Size = new System.Drawing.Size(224, 22);
+            this.textBoxAngkatan.TabIndex = 8;
             // 
-            // textBox4
+            // buttonUpdate
             // 
-            this.textBox4.Location = new System.Drawing.Point(235, 205);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(224, 22);
-            this.textBox4.TabIndex = 8;
+            this.buttonUpdate.Location = new System.Drawing.Point(548, 58);
+            this.buttonUpdate.Name = "buttonUpdate";
+            this.buttonUpdate.Size = new System.Drawing.Size(75, 23);
+            this.buttonUpdate.TabIndex = 9;
+            this.buttonUpdate.Text = "Update";
+            this.buttonUpdate.UseVisualStyleBackColor = true;
+            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
-            // button1
+            // buttonDelete
             // 
-            this.button1.Location = new System.Drawing.Point(548, 58);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Update";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonDelete.Location = new System.Drawing.Point(136, 361);
+            this.buttonDelete.Name = "buttonDelete";
+            this.buttonDelete.Size = new System.Drawing.Size(75, 23);
+            this.buttonDelete.TabIndex = 10;
+            this.buttonDelete.Text = "Delete";
+            this.buttonDelete.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // textBoxDelete
             // 
-            this.button2.Location = new System.Drawing.Point(548, 123);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Delete";
-            this.button2.UseVisualStyleBackColor = true;
+            this.textBoxDelete.Location = new System.Drawing.Point(235, 361);
+            this.textBoxDelete.Name = "textBoxDelete";
+            this.textBoxDelete.Size = new System.Drawing.Size(224, 22);
+            this.textBoxDelete.TabIndex = 11;
+            this.textBoxDelete.Text = "Ketikan NIM";
+            // 
+            // buttonJumlah
+            // 
+            this.buttonJumlah.Location = new System.Drawing.Point(548, 199);
+            this.buttonJumlah.Name = "buttonJumlah";
+            this.buttonJumlah.Size = new System.Drawing.Size(75, 23);
+            this.buttonJumlah.TabIndex = 12;
+            this.buttonJumlah.Text = "Jumlah";
+            this.buttonJumlah.UseVisualStyleBackColor = true;
+            this.buttonJumlah.Click += new System.EventHandler(this.buttonJumlah_Click);
+            // 
+            // labelJumlah
+            // 
+            this.labelJumlah.AutoSize = true;
+            this.labelJumlah.Location = new System.Drawing.Point(545, 256);
+            this.labelJumlah.Name = "labelJumlah";
+            this.labelJumlah.Size = new System.Drawing.Size(88, 17);
+            this.labelJumlah.TabIndex = 13;
+            this.labelJumlah.Text = "Hasil Jumlah";
+            // 
+            // labelKeterangan
+            // 
+            this.labelKeterangan.AutoSize = true;
+            this.labelKeterangan.Location = new System.Drawing.Point(178, 293);
+            this.labelKeterangan.Name = "labelKeterangan";
+            this.labelKeterangan.Size = new System.Drawing.Size(82, 17);
+            this.labelKeterangan.TabIndex = 14;
+            this.labelKeterangan.Text = "Keterangan";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelKeterangan);
+            this.Controls.Add(this.labelJumlah);
+            this.Controls.Add(this.buttonJumlah);
+            this.Controls.Add(this.textBoxDelete);
+            this.Controls.Add(this.buttonDelete);
+            this.Controls.Add(this.buttonUpdate);
+            this.Controls.Add(this.textBoxAngkatan);
+            this.Controls.Add(this.textBoxProdi);
+            this.Controls.Add(this.textBoxNama);
+            this.Controls.Add(this.textBoxNIM);
+            this.Controls.Add(this.labelAngkatan);
+            this.Controls.Add(this.labelProdi);
+            this.Controls.Add(this.labelNama);
+            this.Controls.Add(this.labelNIM);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -161,17 +192,20 @@ namespace ClientRest_098_Nashrul
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label labelNIM;
+        private System.Windows.Forms.Label labelNama;
+        private System.Windows.Forms.Label labelProdi;
+        private System.Windows.Forms.Label labelAngkatan;
+        private System.Windows.Forms.TextBox textBoxNIM;
+        private System.Windows.Forms.TextBox textBoxNama;
+        private System.Windows.Forms.TextBox textBoxProdi;
+        private System.Windows.Forms.TextBox textBoxAngkatan;
+        private System.Windows.Forms.Button buttonUpdate;
+        private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.TextBox textBoxDelete;
+        private System.Windows.Forms.Button buttonJumlah;
+        private System.Windows.Forms.Label labelJumlah;
+        private System.Windows.Forms.Label labelKeterangan;
     }
 }
 

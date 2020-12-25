@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,7 @@ namespace ClientRest_098_Nashrul
             return data;
         }
 
-        /* public bool updateDatabase(Mahasiswa mhs)
+         public bool updateDatabase(Mahasiswa mhs)
          {
              bool updated = false;
              try
@@ -58,6 +59,6 @@ namespace ClientRest_098_Nashrul
 
              }
              return deleted;
-         }*/
+         }
     }
 }
