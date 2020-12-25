@@ -40,6 +40,7 @@ namespace Exercise2_098_Nashrul
             this.buttonInsert = new System.Windows.Forms.Button();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBoxSearch = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -119,12 +120,13 @@ namespace Exercise2_098_Nashrul
             // 
             // buttonSearch
             // 
-            this.buttonSearch.Location = new System.Drawing.Point(427, 111);
+            this.buttonSearch.Location = new System.Drawing.Point(560, 248);
             this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(117, 23);
+            this.buttonSearch.Size = new System.Drawing.Size(77, 23);
             this.buttonSearch.TabIndex = 11;
             this.buttonSearch.Text = "Search";
             this.buttonSearch.UseVisualStyleBackColor = true;
+            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // dataGridView1
             // 
@@ -138,11 +140,19 @@ namespace Exercise2_098_Nashrul
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // textBoxSearch
+            // 
+            this.textBoxSearch.Location = new System.Drawing.Point(427, 248);
+            this.textBoxSearch.Name = "textBoxSearch";
+            this.textBoxSearch.Size = new System.Drawing.Size(127, 22);
+            this.textBoxSearch.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(666, 450);
+            this.Controls.Add(this.textBoxSearch);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.buttonSearch);
             this.Controls.Add(this.buttonInsert);
@@ -175,6 +185,7 @@ namespace Exercise2_098_Nashrul
         private System.Windows.Forms.Button buttonInsert;
         private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox textBoxSearch;
     }
 }
 

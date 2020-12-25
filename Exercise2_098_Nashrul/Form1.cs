@@ -86,5 +86,22 @@ namespace Exercise2_098_Nashrul
             textBoxProdi.Text = Convert.ToString(dataGridView1.Rows[e.RowIndex].Cells[2].Value);
             textBoxAngkatan.Text = Convert.ToString(dataGridView1.Rows[e.RowIndex].Cells[3].Value);
         }
+
+        private void buttonSearch_Click(object sender, EventArgs e)
+        {
+            var json = new WebClient().DownloadString("http://localhost:1907/Mahasiswa");
+            var data = JsonConvert.DeserializeObject<List<Mahasiswa>>(json);
+            string nim = textBoxSearch.Text;
+            if (nim == null || nim == "")
+            {
+                dataGridView1.DataSource = data;
+            }
+            else
+            {
+                var item = data.Where(x => x.nim == textBoxSearch.Text).ToList();
+
+                dataGridView1.DataSource = item;
+            }
+        }
     }
 }

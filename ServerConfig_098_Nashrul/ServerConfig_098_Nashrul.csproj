@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{47D26F53-9F85-48DE-8C37-47E4B9583789}</ProjectGuid>
+    <ProjectGuid>{362D9201-A896-4BCD-A6C1-FB776ACFE2BA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Exercise2_098_Nashrul</RootNamespace>
-    <AssemblyName>Exercise2_098_Nashrul</AssemblyName>
+    <RootNamespace>ServerConfig_098_Nashrul</RootNamespace>
+    <AssemblyName>ServerConfig_098_Nashrul</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,10 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
