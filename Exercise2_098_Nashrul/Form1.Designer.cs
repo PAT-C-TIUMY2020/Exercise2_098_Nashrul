@@ -29,10 +29,10 @@ namespace Exercise2_098_Nashrul
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelNama = new System.Windows.Forms.Label();
+            this.labelNIM = new System.Windows.Forms.Label();
+            this.labelProdi = new System.Windows.Forms.Label();
+            this.labelAngkatan = new System.Windows.Forms.Label();
             this.textBoxNama = new System.Windows.Forms.TextBox();
             this.textBoxNIM = new System.Windows.Forms.TextBox();
             this.textBoxProdi = new System.Windows.Forms.TextBox();
@@ -44,41 +44,41 @@ namespace Exercise2_098_Nashrul
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // labelNama
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(48, 65);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nama";
+            this.labelNama.AutoSize = true;
+            this.labelNama.Location = new System.Drawing.Point(48, 65);
+            this.labelNama.Name = "labelNama";
+            this.labelNama.Size = new System.Drawing.Size(45, 17);
+            this.labelNama.TabIndex = 0;
+            this.labelNama.Text = "Nama";
             // 
-            // label2
+            // labelNIM
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(48, 117);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "NIM";
+            this.labelNIM.AutoSize = true;
+            this.labelNIM.Location = new System.Drawing.Point(48, 117);
+            this.labelNIM.Name = "labelNIM";
+            this.labelNIM.Size = new System.Drawing.Size(32, 17);
+            this.labelNIM.TabIndex = 1;
+            this.labelNIM.Text = "NIM";
             // 
-            // label3
+            // labelProdi
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(48, 167);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Prodi";
+            this.labelProdi.AutoSize = true;
+            this.labelProdi.Location = new System.Drawing.Point(48, 167);
+            this.labelProdi.Name = "labelProdi";
+            this.labelProdi.Size = new System.Drawing.Size(41, 17);
+            this.labelProdi.TabIndex = 2;
+            this.labelProdi.Text = "Prodi";
             // 
-            // label4
+            // labelAngkatan
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(48, 217);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 17);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Angkatan";
+            this.labelAngkatan.AutoSize = true;
+            this.labelAngkatan.Location = new System.Drawing.Point(48, 217);
+            this.labelAngkatan.Name = "labelAngkatan";
+            this.labelAngkatan.Size = new System.Drawing.Size(68, 17);
+            this.labelAngkatan.TabIndex = 3;
+            this.labelAngkatan.Text = "Angkatan";
             // 
             // textBoxNama
             // 
@@ -142,10 +142,11 @@ namespace Exercise2_098_Nashrul
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Location = new System.Drawing.Point(427, 248);
+            this.textBoxSearch.Location = new System.Drawing.Point(405, 248);
             this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(127, 22);
+            this.textBoxSearch.Size = new System.Drawing.Size(149, 22);
             this.textBoxSearch.TabIndex = 13;
+            this.textBoxSearch.Text = "Masukan NIM";
             // 
             // Form1
             // 
@@ -160,10 +161,10 @@ namespace Exercise2_098_Nashrul
             this.Controls.Add(this.textBoxProdi);
             this.Controls.Add(this.textBoxNIM);
             this.Controls.Add(this.textBoxNama);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelAngkatan);
+            this.Controls.Add(this.labelProdi);
+            this.Controls.Add(this.labelNIM);
+            this.Controls.Add(this.labelNama);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -174,10 +175,10 @@ namespace Exercise2_098_Nashrul
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelNama;
+        private System.Windows.Forms.Label labelNIM;
+        private System.Windows.Forms.Label labelProdi;
+        private System.Windows.Forms.Label labelAngkatan;
         private System.Windows.Forms.TextBox textBoxNama;
         private System.Windows.Forms.TextBox textBoxNIM;
         private System.Windows.Forms.TextBox textBoxProdi;

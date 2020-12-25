@@ -43,6 +43,8 @@ namespace ClientRest_098_Nashrul
             this.buttonJumlah = new System.Windows.Forms.Button();
             this.labelJumlah = new System.Windows.Forms.Label();
             this.labelKeterangan = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // labelNIM
@@ -121,7 +123,7 @@ namespace ClientRest_098_Nashrul
             // 
             // buttonDelete
             // 
-            this.buttonDelete.Location = new System.Drawing.Point(136, 361);
+            this.buttonDelete.Location = new System.Drawing.Point(118, 306);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(75, 23);
             this.buttonDelete.TabIndex = 10;
@@ -130,7 +132,7 @@ namespace ClientRest_098_Nashrul
             // 
             // textBoxDelete
             // 
-            this.textBoxDelete.Location = new System.Drawing.Point(235, 361);
+            this.textBoxDelete.Location = new System.Drawing.Point(235, 306);
             this.textBoxDelete.Name = "textBoxDelete";
             this.textBoxDelete.Size = new System.Drawing.Size(224, 22);
             this.textBoxDelete.TabIndex = 11;
@@ -158,17 +160,28 @@ namespace ClientRest_098_Nashrul
             // labelKeterangan
             // 
             this.labelKeterangan.AutoSize = true;
-            this.labelKeterangan.Location = new System.Drawing.Point(178, 293);
+            this.labelKeterangan.Location = new System.Drawing.Point(175, 270);
             this.labelKeterangan.Name = "labelKeterangan";
             this.labelKeterangan.Size = new System.Drawing.Size(82, 17);
             this.labelKeterangan.TabIndex = 14;
             this.labelKeterangan.Text = "Keterangan";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(127, 390);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(533, 150);
+            this.dataGridView1.TabIndex = 15;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 552);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.labelKeterangan);
             this.Controls.Add(this.labelJumlah);
             this.Controls.Add(this.buttonJumlah);
@@ -185,6 +198,7 @@ namespace ClientRest_098_Nashrul
             this.Controls.Add(this.labelNIM);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,6 +220,7 @@ namespace ClientRest_098_Nashrul
         private System.Windows.Forms.Button buttonJumlah;
         private System.Windows.Forms.Label labelJumlah;
         private System.Windows.Forms.Label labelKeterangan;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
